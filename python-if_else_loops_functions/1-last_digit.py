@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
-# Mənfi ədədlər üçün modulo (%) fərqli işləyir, 
+# Mənfi ədədlər üçün modulo (%) fərqli işləyir,
 # ona görə sonuncu rəqəmi belə tapırıq:
 if number < 0:
     last_digit = number % -10
