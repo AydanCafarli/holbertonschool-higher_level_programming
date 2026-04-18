@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for char in str:
-        code = ord(char)
-        if 97 <= code <= 122:
-            char = chr(code - 32)
-        print("{}".format(char), end="")
-    print("")
+def remove_char_at(str, n):
+    if n < 0 or n >= len(str):
+        return (str)
+    return (str[:n] + str[n+1:])
