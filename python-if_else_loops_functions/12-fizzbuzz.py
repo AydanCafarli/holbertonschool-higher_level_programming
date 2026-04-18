@@ -1,16 +1,12 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    """Prints numbers 1 to 100 with FizzBuzz logic."""
+    """Prints numbers 1 to 100 separated by a space."""
     for i in range(1, 101):
         if i % 15 == 0:
-            print("FizzBuzz", end="")
+            print("FizzBuzz", end=" ")
         elif i % 3 == 0:
-            print("Fizz", end="")
+            print("Fizz", end=" ")
         elif i % 5 == 0:
-            print("Buzz", end="")
+            print("Buzz", end=" ")
         else:
-            print("{}".format(i), end="")
-        
-        # Hər elementdən sonra (sonuncudan başqa) boşluq qoyuruq
-        if i < 100:
-            print(" ", end="")
+            print("{}".format(i), end=" ")
