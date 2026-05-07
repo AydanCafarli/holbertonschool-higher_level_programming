@@ -1,1 +1,1 @@
-Python - More Data Structures: Set, Dictionary
+This project focuses on handling exceptions in Python.
